@@ -1,0 +1,22 @@
+{
+  "name": "storefront-html-css",
+  "version": "1.0.0",
+  "description": "Vous devez réaliser un template pour une plateforme de commerce en ligne.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "mustache": "^4.1.0",
+    "node": "^15.4.0",
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass --watch sass -o public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnesaiqe/storefront-html-css.git"
+  },
+  "author": ""
+}
