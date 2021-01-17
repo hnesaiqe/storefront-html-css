@@ -1,12 +1,8 @@
-nav ul {
-  margin: 0;
-  padding: 6px;
-  list-style: none; }
 
-nav li {
-  display: inline-block; }
-
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none; }
+  .html {
+    font-size: 62.5%; }
+  
+  .body {
+    font-family: 'Alef', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 2px; }
