@@ -1,5 +1,5 @@
 .html {
-    font-size: 62%;
+    font-size: 10%;
 }
 
 .body {
@@ -26,6 +26,7 @@ a {
 .jumbotron {
     border-left: 9px solid white;
     border-right: 9px solid  white;
+    height: 350px;
 }
 
 .banner {
@@ -36,6 +37,10 @@ a {
     background-size: cover;
     border-left: 10px solid white;
     border-right: 10px solid white;
+    
+}
+.text-banner {
+    width: 100%;
 }
 // Article
 

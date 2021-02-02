@@ -1,5 +1,5 @@
 .html {
-  font-size: 62%; }
+  font-size: 10%; }
 
 .body {
   font-family: sans-serif;
@@ -19,7 +19,8 @@ a {
 
 .jumbotron {
   border-left: 9px solid white;
-  border-right: 9px solid  white; }
+  border-right: 9px solid  white;
+  height: 350px; }
 
 .banner {
   background-color: grey;
@@ -29,6 +30,9 @@ a {
   background-size: cover;
   border-left: 10px solid white;
   border-right: 10px solid white; }
+
+.text-banner {
+  width: 100%; }
 
 .title {
   font-weight: bold;
