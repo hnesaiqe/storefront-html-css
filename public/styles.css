@@ -17,6 +17,25 @@
 a {
   font-size: small; }
 
+.basket {
+  font-size: 8px; }
+
+#dropdown-cart {
+  min-width: 28rem;
+  transform: translate3d(-304px, 35px, 0px); }
+
+#cart {
+  flex-wrap: nowrap; }
+
+.price-cart {
+  color: black; }
+
+#btn-view, #btn-checkout {
+  border-radius: 0px; }
+
+.total, .total-result {
+  color: gray; }
+
 .jumbotron {
   border-left: 9px solid white;
   border-right: 9px solid  white;
@@ -32,7 +51,8 @@ a {
   border-right: 10px solid white; }
 
 .text-banner {
-  width: 100%; }
+  width: 100%;
+  font-family: serif; }
 
 .title {
   font-weight: bold;

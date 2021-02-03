@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -64,36 +65,61 @@
                     <div class="navbar-collapse-card justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-muted active" style="margin-left: 30%;" color="black"
-                                    href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false"><strong>MY CART (2)</strong>
+                                <a class="nav-link dropdown-toggle text-muted active" style="margin-left: 30%;"
+                                    color="black" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>MY CART
+                                        (2)</strong>
                                 </a>
-                                <div class="dropdown-menu" class="basket" aria-labelledby="navbarDropdownMenuLink">
+
+                                <div class="dropdown-menu p-3" id="dropdown-cart" class="basket"
+                                    aria-labelledby="navbarDropdownMenuLink">
+
                                     <div class="container basket-article w-auto">
-                                        <div class="row flex">
-                                            <div class="image"><img class="w-50"
-                                                    src="../media/hand-painted-blue-flat-dish.jpg"
+                                        <div class="row" id="cart">
+                                            <div class="image"><img class="w-100
+                                                " src="../media/hand-painted-blue-flat-dish.jpg"
                                                     alt="hand painted blue flat dish" />
                                             </div>
                                             <div class="col col-8">
                                                 <div class="title">HAND PAINTED BLUE FLAT DISH</div>
-                                                <div class="brand mt-5">Kiriko</div>
-                                                <div class="price">$40.00</div>
+                                                <div class="quantity"> x 1 </div>
+                                                <div class="brand text-uppercase">Kiriko</div>
+                                                <div class="price font-weight-bold" style="color: black">$40.00</div>
                                             </div>
+                                        </div>
 
-                                            <div class="image"><img class="w-50"
+                                        <div class="row mt-5" id="cart">
+                                            <div class="image"><img class="w-100"
                                                     src="../media/mashiko-yaki-indigo-small-plate.jpg"
                                                     alt="mashiko yaki indigo small plate" />
                                             </div>
 
                                             <div class="col col-8">
                                                 <div class="title">MASHIKO YAKI INDIGO SMALL PLATE</div>
-                                                <div class="brand mt-5">Kiriko</div>
-                                                <div class="price">$40.00</div>
+                                                <div class="quantity"> x 1 </div>
+                                                <div class="brand text-uppercase">Kiriko</div>
+                                                <div class="price font-weight-bold" style="color: black">$40.00</div>
                                             </div>
-
+                                        </div>
+                                        <hr>
+                                        <!-- totaux -->
+                                        <div class="row">
+                                            <div class="col total">TOTAL</div>
+                                            <div class="col col-lg-3 total-result">$ 56.00</div>
+                                        </div>
+                                        <!-- Boutton VIEW/CART CHECKOUT -->
+                                        <div class="row mt-3">
+                                            <div class="col vi-cart">
+                                                <button id="btn-view" type="button" class="btn btn-outline-dark btn-lg">VIEW
+                                                    CART</button>
+                                            </div>
+                                            <div class="col ch-out">
+                                                <button id="btn-checkout" type="button" class="btn btn-dark btn-lg">CHECKOUT
+                                                    </button>
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
