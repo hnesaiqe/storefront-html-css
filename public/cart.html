@@ -131,12 +131,161 @@
                     </div>
                 </div>
         </header>
-        <hr class="bg-light">
+        <hr class="m-0">
         <div class="container bg-light">
+            <!-- banner -->
             <div class="title-shop text-capitalize" style="height: 200px;">
                 <h1 class="text-center align-middle p-5 display-4" style="font-family: serif;">Shopping cart</h1>
             </div>
+            <!-- Récap. du panier -->
+            <div class="container justify-content-center font-weight-bold"
+                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <div class="container shop-cart bg-white text-uppercase p-5 ">
+                            <div class="row text-uppercase font-weight-bold pt-5 pb-3 text-muted text-center">
+                                <div class="col-7 product text-left">Product</div>
+                                <div class="col-2 quantity">Quantity</div>
+                                <div class="col-2 total">Total</div>
+                                <div class="col-1 action text-right">Action</div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row mt-1 mb-5">
+                                <div class="col-7 d-flex">
+                                    <div class="col-4 image"><img class="w-100 h-100 text-left"
+                                            src="../media/hand-painted-blue-flat-dish.jpg" alt="" srcset="">
+                                    </div>
+                                    <div class="col-auto detail p-0">
+                                        <div class="brand">kiriko</div>
+                                        <div class="title text-uppercase"
+                                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">hand
+                                            painted blue flat dish</div>
+                                        <div class="specificity pt-2 d-flex"
+                                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                            <p class="text-muted">color:</p>white
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 quantity text-center d-flex w-100 h-100">
+                                    <div class="col-2 quantity bg-light text-center">
+                                        <p class="pt-4">1</p>
+                                    </div>
+                                    <div class="col-2 drop-menu pl-1">
+                                        <div class="dropup bg-secondary mb-1 text-wrap">
+                                            <button type="button" class="btn btn-secondary rounded-0"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                +
+                                            </button>
+                                        </div>
+                                        <div class="dropdown bg-secondary mt-1 text-wrap" style="width: 36px">
+                                            <button type="button" class="btn btn-secondary rounded-0"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                -
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 total text-center"
+                                    style="font-family: 'Courier New', Courier, monospace;">$28.00</div>
+                                <div class="col-1 action text-right">3</div>
+                            </div>
+
+                            <hr>
+
+
+                            <div class="row mt-1 mb-5">
+                                <div class="col-7 d-flex">
+                                    <div class="col-4 image"><img class="w-100 h-100 text-left"
+                                            src="../media/mashiko-yaki-indigo-small-plate.jpg" alt="" srcset="">
+                                    </div>
+                                    <div class="col-auto detail p-0">
+                                        <div class="brand">kiriko</div>
+                                        <div class="title text-uppercase"
+                                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                                            mashiko-yaki indigo small plate</div>
+                                        <div class="specificity pt-2"
+                                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-2 quantity text-center w-100 h-100 p-0">
+                                    <div class="col-2 quantity text-center d-flex">
+                                        <div class="col-2 quantity bg-light text-center">
+                                            <p class="pt-4">1</p>
+                                        </div>
+                                        <div class="col-2 drop-menu pl-1">
+                                            <div class="dropup bg-secondary mb-1 text-wrap">
+                                                <button type="button" class="btn btn-secondary rounded-0"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    +
+                                                </button>
+                                            </div>
+                                            <div class="dropdown bg-secondary mt-1 text-wrap" style="width: 36px">
+                                                <button type="button" class="btn btn-secondary rounded-0"
+                                                    aria-haspopup="true" aria-expanded="false">
+                                                    -
+                                                </button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 total text-center"
+                                    style="font-family: 'Courier New', Courier, monospace;">$28.00</div>
+                                <div class="col-1 action text-right">3</div>
+                            </div>
+
+                            <hr>
+
+                            <!-- Montant Total -->
+
+                            <div class="row justify-content-end text-muted">
+
+
+                                <div class="col-6 col-sm-3 cart-overview">Cart overview</div>
+                                <div class="col-6 col-sm-3 text-right"></div>
+                                <div class="w-100"></div>
+                                <div class="col-6 col-sm-3 subtotal">subtotal</div>
+                                <div class="col-6 col-sm-3 subtotal-val text-right">$56.00</div>
+                                <div class="w-100"></div>
+                                <div class="col-6 col-sm-3 total">total</div>
+                                <div class="col-6 col-sm-3 total-val text-right text-body"
+                                    style="font-family: 'Courier New', Courier, monospace;">$56.00 cad</div>
+                            </div>
+
+                            <hr>
+
+                            <!-- Continue/Checkout -->
+
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <div class="continue">
+                                        <link rel="stylesheet" href="../public/home.html">
+                                        <u>continue Shopping
+
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="checkout text-right">
+
+                                        <button type="button" class=" btn btn-dark text-wrap text-uppercase rounded-0"
+                                            style="width: 10rem; height: 100%;">
+                                            Add to dart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+
         </div>
+
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
