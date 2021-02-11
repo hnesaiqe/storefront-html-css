@@ -138,7 +138,7 @@
                 <h1 class="text-center align-middle p-5 display-4" style="font-family: serif;">Shopping cart</h1>
             </div>
             <!-- Récap. du panier -->
-            <div class="container justify-content-center font-weight-bold"
+            <div class="container justify-content-center font-weight-normal"
                 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
                 <div class="row">
                     <div class="col-1"></div>
@@ -160,7 +160,7 @@
                                     </div>
                                     <div class="col-auto detail p-0">
                                         <div class="brand">kiriko</div>
-                                        <div class="title text-uppercase"
+                                        <div class="title text-uppercase font-weight-normal"
                                             style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">hand
                                             painted blue flat dish</div>
                                         <div class="specificity pt-2 d-flex"
@@ -191,7 +191,11 @@
                                 </div>
                                 <div class="col-2 total text-center"
                                     style="font-family: 'Courier New', Courier, monospace;">$28.00</div>
-                                <div class="col-1 action text-right">3</div>
+                                <div class="col-1 action text-right font-weight-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="grey" class="bi bi-x" viewBox="0 0 16 16">
+                                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                      </svg>
+                                </div>
                             </div>
 
                             <hr>
@@ -225,7 +229,7 @@
                                             </div>
                                             <div class="dropdown bg-secondary mt-1 text-wrap" style="width: 36px">
                                                 <button type="button" class="btn btn-secondary rounded-0"
-                                                    aria-haspopup="true" aria-expanded="false">
+                                                    aria-haspopup="true" aria-expanded="false" disabled>
                                                     -
                                                 </button>
 
@@ -235,7 +239,11 @@
                                 </div>
                                 <div class="col-2 total text-center"
                                     style="font-family: 'Courier New', Courier, monospace;">$28.00</div>
-                                <div class="col-1 action text-right">3</div>
+                                <div class="col-1 action text-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="grey" class="bi bi-x" viewBox="0 0 16 16">
+                                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                      </svg>
+                                </div>
                             </div>
 
                             <hr>
@@ -249,7 +257,7 @@
                                 <div class="col-6 col-sm-3 text-right"></div>
                                 <div class="w-100"></div>
                                 <div class="col-6 col-sm-3 subtotal">subtotal</div>
-                                <div class="col-6 col-sm-3 subtotal-val text-right">$56.00</div>
+                                <div class="col-6 col-sm-3 subtotal-val text-right" style="font-family: 'Courier New', Courier, monospace;">$56.00</div>
                                 <div class="w-100"></div>
                                 <div class="col-6 col-sm-3 total">total</div>
                                 <div class="col-6 col-sm-3 total-val text-right text-body"
@@ -260,7 +268,7 @@
 
                             <!-- Continue/Checkout -->
 
-                            <div class="row justify-content-between">
+                            <div class="row justify-content-between pt-3">
                                 <div class="col-4">
                                     <div class="continue">
                                         <link rel="stylesheet" href="../public/home.html">
@@ -272,8 +280,8 @@
                                     <div class="checkout text-right">
 
                                         <button type="button" class=" btn btn-dark text-wrap text-uppercase rounded-0"
-                                            style="width: 10rem; height: 100%;">
-                                            Add to dart</button>
+                                            style="width: 12rem; height: 100%;">
+                                            checkout ($56.00)</button>
                                     </div>
                                 </div>
                             </div>
