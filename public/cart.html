@@ -19,13 +19,13 @@
         <header>
             <div class="row">
                 <!-- LOGO -->
-                <div class="col-sm-4 col-lg-2 order-md-first">
+                <div class="col-sm-4 col-lg-2 order-lg-first">
                     <a class="navbar-brand" href="../public/home.html">
                         <img src="../media/logo.png" alt="logo-hero">
                     </a>
                 </div>
                 <!-- NAVBAR -->
-                <div class="col-sm-4 col-lg-8 order-sm-first  ">
+                <div class="col-sm-4 col-lg-8 order-sm-first order-lg-last pt-3">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                             <ul class="navbar-nav">
@@ -62,7 +62,7 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-sm-4 col-lg-2 order-sm-last order-md-last">
+                <div class="col-sm-4 col-lg-2 order-sm-last pt-3">
                     <!-- CART DropDown -->
                     <div class="navbar-collapse-card justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav">
@@ -130,6 +130,7 @@
                         </ul>
                     </div>
                 </div>
+            </div>
         </header>
         <hr class="m-0">
         <div class="container bg-light">
@@ -144,14 +145,14 @@
                     <div class="col-10 m-auto">
                         <div class="container shop-cart bg-white text-uppercase p-5 ">
                             <div
-                                class="row text-uppercase font-weight-bold pt-5 pb-3 text-muted text-center d-sm-none d-md-none d-lg-flex">
+                                class="row text-uppercase font-weight-bold pt-5 pb-3 text-muted text-center d-xs-none d-sm-none d-md-none d-lg-flex">
                                 <div class="col-7 product text-left ">Product</div>
                                 <div class="col-2 quantity">Quantity</div>
                                 <div class="col-2 total">Total</div>
                                 <div class="col-1 action text-right">Action</div>
                             </div>
 
-                            <hr class="d-sm-none d-md-none d-lg-flex">
+                            <hr class="d-xs-none d-sm-none d-md-none d-lg-flex">
 
                             <div class="row mt-1 mb-5">
                                 <div class="col-sm-12 col-md-7 d-flex pb-4 px-0">
@@ -280,7 +281,8 @@
                                 <br class="d-sm-block d-md-none">
                                 <div class=" col-sm-12 col-lg-4 text-sm-center">
                                     <div class="checkout text-lg-right ml-sm-5">
-                                        <button type="button" class=" btn btn-dark btn-sm text-wrap text-uppercase rounded-0"
+                                        <button type="button"
+                                            class=" btn btn-dark btn-sm text-wrap text-uppercase rounded-0"
                                             style="width: 12rem; height: 100%; font-family: Georgia, 'Times New Roman', Times, serif">
                                             checkout ($56.00)</button>
                                     </div>
