@@ -43,12 +43,14 @@ a {
 
 .banner {
   background-color: grey;
-  background-image: url("../media/plates-header.jpg");
+  background-image: url("./media/plates-header.jpg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   border-left: 10px solid white;
   border-right: 10px solid white; }
+
+  
 
 .text-banner {
   width: 100%;
